@@ -1,0 +1,85 @@
+
+.SearchForm {
+  margin-left: 3rem;
+}
+
+.SearchForm input {
+  padding: 5px 30px;
+  margin: 0 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.SearchForm span {
+  color: red;
+  margin: 0 3px;
+}
+
+.SearchForm select {
+  padding: 3px 15px;
+  border-radius: 8px;
+  background: white;
+}
+
+.SearchFormButton {
+  padding: 3px 15px;
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+@media (min-width: 320px) {
+    .SearchForm {
+      margin-left: 0;
+    }
+    .SearchForm input {
+      padding: 5px 20px;
+      border: 1px solid black;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .SearchForm label {
+        display: none;
+    }
+}
+@media (min-width: 576px) {
+    .SearchForm {
+      margin-left: 0;
+    }
+    .SearchForm input {
+      padding: 5px 20px;
+      border: 1px solid black;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .SearchForm label {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .SearchForm {
+      margin-left: 0;
+    }
+    .SearchForm input {
+      padding: 5px 20px;
+      border: 1px solid black;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .SearchForm label {
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .SearchForm label {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {
+    .SearchForm label {
+      display: inline-flex;
+    }
+}

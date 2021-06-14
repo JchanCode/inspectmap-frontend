@@ -1,0 +1,48 @@
+.LoginModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  border-top: 70px;
+}
+
+.LoginModal-Content {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 50px 600px;
+  grid-template-areas:
+    "header header"
+    "register login";
+  justify-content: center;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.781);
+  width: 90vw;
+  max-width: 650px;
+  height: 90vh;
+  max-height: 650px;
+  border: 2px solid #444;
+  border-radius: 4px;
+  margin: 4rem auto;
+}
+
+.LoginModal-Logo {
+  grid-area: header;
+  height: 60px;
+  justify-self: center;
+  margin-top: 1.5rem;
+}
+
+.LoginModal-Close-Btn{
+  grid-area: header;
+  grid-column-start: 4;
+  height: 1rem;
+  width: 1rem;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: none;
+  justify-self: right;
+  cursor: pointer;
+}

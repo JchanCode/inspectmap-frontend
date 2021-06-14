@@ -1,0 +1,25 @@
+.Popup-Container {
+  display: grid;
+  grid: auto / 1fr 4fr;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Popup-Img {
+  height: 120px;
+  grid-column: 1 / 2;
+}
+
+.Popup-Info {
+  grid-column: 2 / 3;
+}
+
+.Popup-Footer {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.Popup-Btn {
+  margin-right: 10px;
+}

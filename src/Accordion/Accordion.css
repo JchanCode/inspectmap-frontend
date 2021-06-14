@@ -1,0 +1,54 @@
+
+
+.Accordion-Container {
+  max-width: 500px;
+  margin: 1.5rem auto;
+};
+@media (min-width: 576px) {
+    .Accordion-Container {
+        width: 300px;
+    }
+}
+@media (min-width: 768px) {
+    .Accordion-Container {
+        width: 400px;
+    }
+}
+@media (min-width: 992px) {
+    .Accordion-Container {
+        width: 500px;
+    }
+}
+
+
+.Accordion-Title {
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(197, 192, 192);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+              rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.Accordion-Table-Container {
+  display: flex;
+  border-collapse: collapse;
+}
+
+
+.Accordion-Title:hover {
+  cursor: pointer;
+}
+
+
+.Accordion-Thead {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.Accordion-Tbody {
+  font-size: 0.8rem;
+}

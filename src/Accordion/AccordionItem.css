@@ -1,0 +1,11 @@
+
+
+table {
+  border-collapse: collapse;
+}
+
+.AccordionItem-Tr {
+  border-bottom: 1pt solid black;
+  line-height: 120%;
+  word-spacing: 2px;
+}

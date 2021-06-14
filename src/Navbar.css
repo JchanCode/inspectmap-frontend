@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+/* ======================================  Navbar */
+
+.Navbar {
+  position: fixed;
+  display: flex;    
+  top: 80px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto;
+  height: 60px;
+  border-radius: 35px;
+  background:  #f0f6e6ab;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  z-index: 1000;
+  transition: all .2s ease-out;
+}
+
+@media (min-width: 576px) {
+    .Navbar {
+        width: 700px;
+    }
+}
+@media (min-width: 768px) {
+    .Navbar {
+        width: 800px;
+    }
+}
+@media (min-width: 1000px) {
+    .Navbar {
+        width: 1000px;
+    }
+}
+@media (min-width: 1200px) {
+    .Navbar {
+        width: 1100px;
+    }
+}
+.Navbar-logo {
+  padding: 0.3rem 1.3rem;
+  max-width: 150px;
+  height: auto;
+}
+
+
+.NavBar-Login-Link {
+  color: black;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.NavBar-Login-Link:hover {
+  color: RGB(46,74,31);
+  text-decoration: underline;
+}
+
+.NavBar-Logout-Link {
+  color: black;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.NavBar-Logout-Link:hover {
+  color: RGB(46,74,31)
+}

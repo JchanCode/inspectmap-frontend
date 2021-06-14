@@ -1,0 +1,45 @@
+.Notification-Container {
+  position: fixed;
+  top: 45vh;
+  right: 10px;
+  width: 60vw;
+  z-index: 1000;
+}
+
+.Notification-Item {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f0f6e6ab;
+  margin-bottom: 20px;
+  animation: SlideLeft 0.2s;
+  animation-fill-mode: forwards;
+  width: 300px;
+}
+
+@keyframes SlideLeft {
+  0% {
+    margin-left: 500%;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes SlideRight {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: 500%;
+  }
+}
+
+.Notification-Item p {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
